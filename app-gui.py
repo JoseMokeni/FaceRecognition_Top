@@ -20,7 +20,7 @@ class MainUI(tk.Tk):
             for i in z:
                 names.add(i)
         self.title_font = tkfont.Font(family='Helvetica', size=16, weight="bold")
-        self.title("Face Recognizer")
+        self.title("MCRecognizer")
         self.resizable(False, False)
         self.geometry("500x250")
         self.protocol("WM_DELETE_WINDOW", self.on_closing)
